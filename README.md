@@ -2,7 +2,10 @@
 
 1.Encoding
 ===
-DataNup_1, 2 and 3 are all stored in data. rar. 
+DataNup_1, 2 and 3 are all stored in data.zip, you can unzip the file using the following command:
+```
+unzip data.zip -d data
+```
 
 Encode the data with the following command：
 ```
