@@ -23,7 +23,7 @@ Train DeepNup with the following command:
 ```
 $python training.py -p Pickle_file_Path -o Output_file_Path -e Experiments_Name
 ```
-* **-p Pickle_file_Path:** the path of the pickle file， it is same as the Output_file_Path in the `1.`;
+* **-p Pickle_file_Path:** the path of the pickle file, it is same as the Output_file_Path in the `1.`;
 * **-o Output_file_Path:** you can use this parameter to pass the path where the model will be saved;
 * **-e Experiments_Name:** you can use this parameter to pass the name of this experiment.
 
