@@ -6,7 +6,7 @@ DataNup_1, 2 and 3 are all stored in data.zip, you can unzip the file using the 
 ```
 unzip data.zip -d data
 ```
-* -d data: The name of the folder you unzipped
+* **-d data:** The name of the folder you unzipped
 
 Encode the data with the following command：
 ```
