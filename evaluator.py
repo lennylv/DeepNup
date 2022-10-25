@@ -3,7 +3,7 @@ import tensorflow as tf
 import tensorflow.keras.backend as K
 from sklearn.model_selection import StratifiedKFold
 
-def build_kfold(data1, data2, labels, k=10, shuffle=False, seed=59):
+def build_kfold(data1, data2, labels, k=10, shuffle=False, seed):
     np.random.seed(seed)
     np.random.shuffle(data1)
     np.random.seed(seed)
