@@ -12,7 +12,7 @@ Encode the data with the following command：
 ```
 $python Data_encoded.py -p Fasta_file_Path -f Fasta_filename -o Output_file_Path
 ```
-* **-p Fasta_File_Path:**  the path of fasta file of raw DNA sequence;
+* **-p Fasta_file_Path:**  the path of fasta file of raw DNA sequence;
 * **-f Fasta_filename:** the file name of fasta file of raw DNA sequence;
 * **-o Output_file_Path:** the path where the encoding data of DNA sequences is saved.
 
