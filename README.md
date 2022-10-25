@@ -1,7 +1,7 @@
 # DeepNup
 
 1.Encoding
-===
+---
 DataNup_1, 2 and 3 are all stored in data.zip, you can unzip the file using the following command:
 ```
 unzip data.zip -d data
@@ -18,7 +18,7 @@ $python Data_encoded.py -p Fasta_file_Path -f Fasta_filename -o Output_file_Path
 
 
 2.Train the model
-===
+---
 Train DeepNup with the following command:
 ```
 $python training.py -p Pickle_file_Path -o Output_file_Path -e Experiments_Name
@@ -29,7 +29,7 @@ $python training.py -p Pickle_file_Path -o Output_file_Path -e Experiments_Name
 
 
 3.Predict and get results
-===
+---
 Predict DeepNup with the following command:
 ```
 $python predict.py -p Model_file_Path -e Experiments_Name
