@@ -110,7 +110,7 @@ for fold in folds:
         tf.keras.callbacks.ModelCheckpoint(os.path.join(modelPath, "{}_bestModel-fold{}.hdf5".format(m, i)),
                                            monitor='val_loss', verbose=0, save_best_only=True, save_weights_only=False,
                                            mode='auto', period=1),
-        tf.keras.callbacks.EarlyStopping(monitor='val_loss', min_delta=0, patience=9, verbose=0, mode='auto',
+        tf.keras.callbacks.EarlyStopping(monitor='val_loss', min_delta=0, patience=15, verbose=0, mode='auto',
                                          baseline=None, restore_best_weights=False)
     ]
     model = model_dn.dn(metrics=metricsList)
